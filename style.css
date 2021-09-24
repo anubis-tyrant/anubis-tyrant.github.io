@@ -1,0 +1,27 @@
+.dec {background-color: rgba(255, 255, 255, 0.5);
+	border:  2px solid gold;
+	height:200px;
+	width: 500px;
+	margin: auto;
+	align-self: center;
+	text-align: center;
+	border-spacing: 0px;}
+
+div#op {
+	border-radius: 10px;
+}
+
+#des {
+	text-decoration: underline;
+}
+
+footer#bye {
+	margin-top: 20px;
+	min-height: 100px;
+	text-align: center;
+	color:  black;
+	background-color: lightsalmon;
+	position: absolute;
+	height: 20px;
+	width: 100%;
+}
