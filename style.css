@@ -11,6 +11,8 @@ html,body,h1 {
 	align-self: center;
 	text-align: center;
 	border-spacing: 0px;
+	position: relative;
+	bottom: 500px
 	}
 
 div#op {
@@ -30,8 +32,7 @@ footer#bye {
 	color:  black;
 	background-color: lightsalmon;
 	margin-bottom: 0;
-	position: absolute;
-	height: 20px;
+	position: sticky;
 	width: 100%
 }
 
@@ -39,12 +40,11 @@ div#hi {
 	border: 3px solid red;
 }
 
-ul {
+ul#one {
 	border: 3px solid green;
 	text-decoration: none;
 	background-color: rgba(30, 105, 30, 0.767);
 	height: 100%;
-	position: fixed;
 	margin: 0;
 	padding: 0;
 	width: 300px;
@@ -52,29 +52,50 @@ ul {
 }
 li:hover {
 	background-color: rgba(255, 255, 255, 0.712);
-	color: black;
+	color: rgb(0, 0, 0);
 
 }
 
-li a:active {
+li#eone a:active {
 		color: rgb(35, 233, 150);
 		display: block;
 }
 
 
 
-li a {
+li#one a {
 	text-decoration: none;
 	padding: 8px 16px;
 	display: block;
-	color: white;
+	color: rgb(255, 255, 255);
 }
 
-l.active {
-	background-color: aqua;
-}
 
-.sticky {
+
+
+
+li#h_nav1 {
+	text-align: center;
+	float: left;
+	padding: 50px 50px 50px 50px;
+	margin: 0;
+	padding-top: 10;
+	display: block;
+	text-align: center;
 	position: sticky;
-	top: 0;
+}
+
+ul#h_nav {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	background-color: yellow;
+	height: 30px;
+	list-style-type: none;
+	border: 2px solid black;
+	padding: 0;
+	margin: 0;
+	box-shadow: 0px 5px 24px black;
+	position: relative;
+	bottom: 0px;
 }
