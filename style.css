@@ -38,6 +38,7 @@ div#hi {
 }
 
 ul#one {
+	border-radius: 7px;
 	border: 2px solid white;
 	text-decoration: none;
 	background-color: rgba(255, 255, 255, 0.9);
@@ -62,6 +63,7 @@ li#eone a:active {
 
 
 li#one a {
+	border-radius: 7px;
 	background-color: #aaeca7;
 	border: 1px solid black;
 	text-decoration: none;
