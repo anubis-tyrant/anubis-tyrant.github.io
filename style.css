@@ -1,11 +1,17 @@
-.dec {background-color: rgba(255, 255, 255, 0.5);
+html,body,h1 {
+	margin: 0;
+	padding: 0;
+}
+
+.dec {background-color: rgba(255, 255, 255, 0.7);
 	border:  2px solid gold;
 	height:200px;
 	width: 500px;
 	margin: auto;
 	align-self: center;
 	text-align: center;
-	border-spacing: 0px;}
+	border-spacing: 0px;
+	}
 
 div#op {
 	border-radius: 10px;
@@ -16,12 +22,59 @@ div#op {
 }
 
 footer#bye {
+	bottom: 0;
 	margin-top: 20px;
-	min-height: 100px;
-	text-align: center;
+	margin-left: 306px;
+	min-height: 50px;
+	padding: 8px 25%;
 	color:  black;
 	background-color: lightsalmon;
+	margin-bottom: 0;
 	position: absolute;
 	height: 20px;
-	width: 100%;
+	width: 100%
+}
+
+div#hi {
+	border: 3px solid red;
+}
+
+ul {
+	border: 3px solid green;
+	text-decoration: none;
+	background-color: rgba(30, 105, 30, 0.767);
+	height: 100%;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	overflow: auto;
+}
+li:hover {
+	background-color: rgba(255, 255, 255, 0.712);
+	color: black;
+
+}
+
+li a:active {
+		color: rgb(35, 233, 150);
+		display: block;
+}
+
+
+
+li a {
+	text-decoration: none;
+	padding: 8px 16px;
+	display: block;
+	color: white;
+}
+
+l.active {
+	background-color: aqua;
+}
+
+.sticky {
+	position: sticky;
+	top: 0;
 }
